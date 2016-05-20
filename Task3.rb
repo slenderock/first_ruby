@@ -9,13 +9,17 @@ class Sum_of_neg
     @table
   end
 
-  def randomize
-    @table.each_index {|i|
-      @table[i].each_index {|j|
+  def randomize       #(i,j,table)
+    table.each_index {|i|
+      table[i].each_index {|j|
         table[i][j] = rand(-10...10)
+        # puts table[i][j]
       }
     }
-
+    # @table[i][j] = rand(-10...10) #starting eror code
+    # @table.randomize(i,j,table) if i != 4 and j != 4
+    # i += 1
+    # j += 1
   end
 
   def sum
@@ -32,9 +36,8 @@ class Sum_of_neg
     puts ('The sum of negative elements is')
     return @res
   end
-
 end
 
 t = Sum_of_neg.new([Array.new(4), Array.new(4), Array.new(4), Array.new(4)])
-t.randomize
+t.randomize #(0,0,t)
 puts t.sum
