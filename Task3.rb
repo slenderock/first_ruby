@@ -1,4 +1,4 @@
-#0.1 seccond version of program with Class, methods and initialize
+# seccond version of program with Class, methods and initialize
 class Sum_of_neg
 
   def initialize(table)

@@ -1,4 +1,4 @@
-#v1.0 first version of program without classes
+#first version of program without classes
 some_hash = {'yes' => 23, 'b' => 'travel', 'yesterday' => 34, 5 => '234', :yesss => :fg, try: 30,
 			 key: 'some value', 'yesterday1' => 34, 'yesteryear' => 2014}
 i = 0

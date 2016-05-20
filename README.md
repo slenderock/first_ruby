@@ -1,1 +1,1 @@
-# home_assignments
+# home_assignments directory

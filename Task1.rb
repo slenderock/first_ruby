@@ -1,4 +1,4 @@
-#v1.0 first version of program without classes
+# first version of program without classes
 table = [Array.new(4), Array.new(4), Array.new(4), Array.new(4)]
 sum_of_neg = 0
 puts ('Negative elements:')
