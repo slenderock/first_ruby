@@ -1,4 +1,4 @@
-# Task 1 with with class, methods and initialize
+# Task 1 with class, methods and initialize
 class Sum_of_neg
   attr_accessor :table
 
