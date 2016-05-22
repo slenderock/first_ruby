@@ -3,7 +3,6 @@ class Sum_of_neg
   attr_accessor :table
 
   def initialize(table)
-    @res = 0
     @table = table
   end
 
@@ -17,17 +16,17 @@ class Sum_of_neg
 
   def calculate
     puts ('Negative elements:')
-
+    res = 0
     table.each_index {|i|
       table[i].each_index {|j|
         if table[i][j] < 0
           puts table[i][j]
-          @res +=  table[i][j]
+          res +=  table[i][j]
         end
       }
     }
 
-    puts ("The sum of negative elements is #{@res}")
+    puts ("The sum of negative elements is #@res")
   end
 end
 
