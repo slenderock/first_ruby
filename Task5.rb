@@ -1,9 +1,9 @@
 class String
 
-  def string_split_to_array (str)
+  def string_split_to_array
 
-    splitter = str.scan(/\W+/).first          #split string to array with some symbol splitter
-    parts    = str.split(splitter)
+    splitter = self.scan(/\W+/).first          #split string to array with some symbol splitter
+    parts    = self.split(splitter)
     result   = []
 
     parts.count.times do                      #form for output()
@@ -15,14 +15,8 @@ class String
   end
 end
                                               #testing
-str1 = String.new
-p str1.string_split_to_array ("Fizz::Buzz::Wizz::DayZ")
-p str1.string_split_to_array ("Fizz@Buzz@Wizz@DayZ")
-p str1.string_split_to_array ("Fizz|Buzz|Wizz|DayZ")
-p str1.string_split_to_array ("Fizz%^Buzz%^Wizz%^DayZ")
-p str1.string_split_to_array ("Fizz&&Buzz&&Wizz&&DayZ")
-
-
-#have some ideas about this comented code
-# str = self if p self != ""
-# p "Fizz::Buzz::Wizz::DayZ".string_split_to_array
+p "Fizz::Buzz::Wizz::DayZ".string_split_to_array
+p "Fizz@Buzz@Wizz@DayZ".string_split_to_array
+p "Fizz|Buzz|Wizz|DayZ".string_split_to_array
+p "Fizz%^Buzz%^Wizz%^DayZ".string_split_to_array
+p "Fizz&&Buzz&&Wizz&&DayZ".string_split_to_array
