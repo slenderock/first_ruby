@@ -2,8 +2,8 @@
 class Sum_of_neg
   attr_accessor :table
 
-  def initialize
-    table = Array.new(4) { Array.new(4) {rand(-10...10)} }
+  def initialize (n,m)
+    table = Array.new(n) { Array.new(m) {rand(-10...10)} }
     @table = table
   end
 
@@ -13,5 +13,5 @@ class Sum_of_neg
 
 end
 
-t = Sum_of_neg.new
+t = Sum_of_neg.new(4,4)
 t.calculate
