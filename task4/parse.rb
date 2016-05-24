@@ -1,4 +1,3 @@
-#Task 2 with class, method and recursive method "symbolize"
 class Parse
   def initialize (some_hash)
     @some_hash = some_hash
