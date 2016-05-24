@@ -1,4 +1,3 @@
-# Task 1 with class, methods and initialize
 class SumOfNeg
   def initialize (n,m)
     @table = Array.new(n) { Array.new(m) {rand(-10...10)} }
