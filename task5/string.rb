@@ -15,8 +15,8 @@ class String
   end
 end
                                               #testing
-p "Fizz::Buzz::Wizz::DayZ".string_split_to_array
-p "Fizz@Buzz@Wizz@DayZ".string_split_to_array
-p "Fizz|Buzz|Wizz|DayZ".string_split_to_array
-p "Fizz%^Buzz%^Wizz%^DayZ".string_split_to_array
-p "Fizz&&Buzz&&Wizz&&DayZ".string_split_to_array
+# p "Fizz::Buzz::Wizz::DayZ".string_split_to_array
+# p "Fizz@Buzz@Wizz@DayZ".string_split_to_array
+# p "Fizz|Buzz|Wizz|DayZ".string_split_to_array
+# p "Fizz%^Buzz%^Wizz%^DayZ".string_split_to_array
+# p "Fizz&&Buzz&&Wizz&&DayZ".string_split_to_array
