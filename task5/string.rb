@@ -1,7 +1,5 @@
 class String
-
   def string_split_to_array
-
     splitter = self.scan(/\W+/).first          #split string to array with some symbol splitter
     parts    = self.split(splitter)
     result   = []
