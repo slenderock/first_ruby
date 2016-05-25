@@ -19,9 +19,9 @@ class Parse
   end
 end
 
-hsh = Parse.new ({'yes' => 23, 'b'=> 'travel', 'yesterday' => 34, 5 => '234',
-                  :yesss => :fg, try: 30, key: 'some value', 'yesterday1' => 34,
+hsh = Parse.new ({'yes' => 23, 'b'=> 'travel', 'yesterday' => 34, 5 => '234',\
+                  :yesss => :fg, try: 30, key: 'some value', 'yesterday1' => 34,\
                    'yesteryear' => 2014})
 
-p hsh.hash_scan_for_the_yes
-p hsh.symbolize
+# p hsh.hash_scan_for_the_yes
+# p hsh.symbolize
