@@ -4,10 +4,9 @@ class SumOfNeg
   end
 
   def calculate
-    p @table.flatten.select {|a| a < 0}.inject(:+)
+    @table.flatten.select {|a| a < 0}.inject(:+)
   end
-
 end
 
-t = SumOfNeg.new(4,4)
-t.calculate
+# t = SumOfNeg.new(4,4)
+# t.calculate
