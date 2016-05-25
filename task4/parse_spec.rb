@@ -12,12 +12,12 @@ describe Hash do
     describe "Need convert each key type to Symbol" do
       it "successful symbolizing" do
          @hash.symbolize.keys.each{ |current| current.is_a? Symbol}
+      end
     end
-
 
     describe "hash_scan_for_the_yes" do
-      # it "successful scaning" do
-         # @hash.hash_scan_for_the_yes
+      it "successful scaning" do
+         @hash.hash_scan_for_the_yes.must_equal 5
+      end
     end
-  end
 end
